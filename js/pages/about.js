@@ -3,6 +3,7 @@ import React from "react";
 export default class About extends React.Component {
   render() {
     return (
+      <div class="container">
         <div class="well">
             <h3>Thanks for checking out my application</h3>
             <div class="media">
@@ -34,6 +35,7 @@ export default class About extends React.Component {
                 </ul>
             </div>
         </div>
+      </div>
     );
   }
 }
